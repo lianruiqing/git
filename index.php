@@ -8,6 +8,8 @@
 		$query = $pdo->query($sql);
 		die;
 
+
+
 	}catch(Exception $e){
 		
 		var_dump($e->getMessage());
